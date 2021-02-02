@@ -1,0 +1,48 @@
+:root{
+    //color
+    $color_button_login: #28a745 ;
+    $color_nav_login :aqua;
+    //distance
+    $width_search: 500px!important;
+    .bg-light {
+        background-color:  #ff3377 !important;
+    }
+    .navbar{
+        padding:0 0 !important;
+            input{
+                width: $width_search;
+                margin-right: 0em !important;
+            }
+            .btn-outline-success{ //search icon
+                color:white !important;
+                border-color: white;
+            }
+            // .menu__childs{
+            //     background-color: $color_nav_login;
+            //     height: 425px;
+            //     width: 250px;
+            // }
+            .navbar-light .navbar-toggler
+            {
+                color: --color_button_login !important;
+            }
+            .navbar-toggler{
+                margin-left: 10px !important;
+            }
+            .logo_item{
+                margin:0;
+                padding:0;
+                .logo_item-size{
+                    height: 70px;
+                    width: 250px;
+                
+                }
+            }
+            .btn-primary{
+                background-color:#f0068f!important;
+                border-color:white !important;
+            }
+    }
+    
+  
+}
